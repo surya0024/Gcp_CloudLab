@@ -1,0 +1,6 @@
+class Init_fun:
+
+    def __init__(self) : #when we create object init function will called by defualt no need to call explicit...
+        print('this is init function...')
+
+obj=Init_fun()
