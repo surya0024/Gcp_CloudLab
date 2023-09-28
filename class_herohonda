@@ -1,0 +1,35 @@
+class HeroHonda:
+
+    def __init__(self): 
+        #defualt initialization 
+        self.engine_type='defult_engine'
+        self.fual_type  ='defult_fual_type'
+        self.modal      ='defult_modal'
+        self.prize      ='defult_prize'
+
+    def info(arg):
+       futures_list=[arg.engine_type,arg.fual_type,arg.modal,arg.prize]
+       for output in futures_list:
+           print(output) 
+        
+
+obj1=HeroHonda() # we can create n number of objects if u not given data dafult data will fetching 
+obj1.info()
+
+obj2=HeroHonda() #if give's data given data initialize and fetching 
+print('')
+obj2.engine_type='4-stroke'
+obj2.fual_type='petrol'
+obj2.modal='Hond_f_21'
+obj2.prize='45000'
+obj2.info()
+
+obj2=HeroHonda()
+print('')
+obj2.engine_type='5-stroke'
+obj2.fual_type='desile'
+obj2.modal='Hond_fz_420'
+obj2.prize='65000'
+obj2.info()
+
+
