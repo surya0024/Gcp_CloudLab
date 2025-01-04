@@ -3,7 +3,8 @@ def calculat_sum_return():
     
     a=10
     b=330
-    return a+b
+    c=25
+    return a+b+c
 
 result=calculat_sum_return()
 print(result)
